@@ -19,7 +19,7 @@ To build and run this application, ensure the following are installed on your sy
 ### Frontend Setup
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone <https://github.com/ShenalSen/Real-Time-Event-Ticketing-System-with-Advanced-Producer-Consumer-Implementation.git>
    cd ticket-management-system/frontend
    ```
 
@@ -30,10 +30,16 @@ To build and run this application, ensure the following are installed on your sy
 
 3. Start the development server:
    ```bash
-   npm start
+   npm run dev
    ```
 
-   The React frontend will run at `http://localhost:3000/`.
+   The React frontend will run at,
+   
+   ➜  Local:  'http://localhost:5173/'
+   
+   ➜  Network: use --host to expose
+   
+   ➜  press h + enter to show help
 
 ### Backend Setup
 1. Navigate to the backend directory:
@@ -119,13 +125,13 @@ To build and run this application, ensure the following are installed on your sy
   - Spring Boot application.
   - RESTful APIs for communication with the frontend.
   - Implements service-layer architecture for business logic.
-
 ---
 
-## License
+## License & Copyright
 This project is licensed under the MIT License. See `LICENSE` for details.
+© 2024 [Shenal Raveesha Senarathne](https://shenalsenarathne.me). All Rights Reserved.
 
 ---
 
-## Contributors
-- **[Your Name]**
+
+
