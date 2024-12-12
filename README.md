@@ -1,4 +1,5 @@
 # Ticket Management System
+![image](https://github.com/user-attachments/assets/b45fcb53-ef44-4745-ab5f-41c841e7eeee)
 
 ## Introduction
 The Ticket Management System is a robust application designed to manage and monitor ticketing operations efficiently. It provides functionalities to configure system settings, start and stop operations, reset the system, and view recent transactions and the ticket pool status. The system comprises a **React-based frontend** and a **Spring Boot backend**, enabling seamless interaction and functionality.
