@@ -1,0 +1,23 @@
+version: "3.8"
+services:
+  backend:
+    build:
+      context: ./tms-backend
+    ports:
+      - "8080:8080"
+    networks:
+      - app-network
+
+  frontend:
+    build:
+      context: ./tms-frontend
+    ports:
+      - "3000:80" # 3000 for local access, 80 is the Nginx default
+    networks:
+      - app-network
+    environment:
+      - REACT_APP_BACKEND_URL=http://backend:8080 # Environment variable for backend URL
+
+networks:
+  app-network:
+    driver: bridge
