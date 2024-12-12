@@ -2,7 +2,6 @@ import { useState } from "react";
 
 // eslint-disable-next-line react/prop-types
 function Configuration({totalTickets, setTotalTickets}) {
-  //const [totalTickets, setTotalTickets] = useState(0);
   const [ticketReleaseRate, setTicketReleaseRate] = useState(0);
   const [customerRetrievalRate, setCustomerRetrievalRate] = useState(0);
   const [maxTicketCapacity, setMaxTicketCapacity] = useState(0);
